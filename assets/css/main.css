@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(font-awesome.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic");
 
 
@@ -2242,13 +2242,13 @@
 		}
 
 			.image.fit img {
-				max-width: 85%;
+				max-width: 800px;
 				margin: auto;
 			}
 
 		.image.main {
 			display: block;
-			margin: -1em auto 1em 10%;
+			margin: -1em auto 1em 5%;
 			max-width: 1000px;
 		}
 
@@ -3825,19 +3825,49 @@
 		word-spacing: 0.03em;
 	}
 
-		#main h2, h3, p, iframe {
-			margin-left: 10%;
-		}
-
 		#main h3 {
 			font-size: 24px;
-			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		#main p {
 			font-size: 22px;
-			width: 800px;
+			margin-right:auto;
 		}
+
+		.article {
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#main .leftblock {
+			position: relative;
+			width: 700px;
+			max-width: 65%;
+		}
+
+		.brief {
+			display: block;
+			margin-top: 50px;
+		}
+
+			.leftblock > h4 {
+				font-size: 22px;
+				font-weight: 400;
+			}
+
+		#main .rightblock {
+			position: absolute;
+			width: 300px;
+			max-width: 32%;
+			left: 68%;
+		}
+			.rightblock > h4 {
+				font-size: 19px;
+				font-weight: 400;
+			}
 
 		/*#main #read {
 			margin-left: 10%;
@@ -3884,7 +3914,8 @@
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		}
 
-	.redcolor {
+	.redbold {
+		font-weight: bold;
 		color: #e77690;
 	}
 
