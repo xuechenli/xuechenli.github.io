@@ -2237,7 +2237,7 @@
 
 		.image.fit {
 			display: block;
-			margin: -1em auto 1em 10%;
+			margin: -1em auto 1em auto;
 			max-width: 800px;
 		}
 
@@ -2248,7 +2248,7 @@
 
 		.image.main {
 			display: block;
-			margin: -1em auto 1em 5%;
+			margin: -1em auto 1em auto;
 			max-width: 1000px;
 		}
 
