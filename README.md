@@ -1,3 +1,3 @@
 # xuechenli.github.io
-My personal website /n
+My personal website
 All rights reserved
