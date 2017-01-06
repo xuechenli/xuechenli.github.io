@@ -3860,7 +3860,8 @@
 		#main .rightblock {
 			position: absolute;
 			max-width: 30%;
-			left: 66%;
+			left: 65%;
+			margin-right: auto;
 		}
 			.rightblock > h4 {
 				font-size: 19px;
