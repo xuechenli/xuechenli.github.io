@@ -3859,9 +3859,8 @@
 
 		#main .rightblock {
 			position: absolute;
-			
 			max-width: 30%;
-			left: 68%;
+			left: 66%;
 		}
 			.rightblock > h4 {
 				font-size: 19px;
