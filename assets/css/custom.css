@@ -1,0 +1,23 @@
+.top-buffer {
+  margin-top:50px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.ft-1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.ft-2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.current-link {
+  color: #fafafa !important;
+}
