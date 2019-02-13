@@ -17,8 +17,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/logo-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/logo-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo.ico">
-    <!--<link rel="manifest" href="assets/images/logo/manifest.json">-->
-    <!--<meta name="msapplication-TileImage" content="assets/images/logo/mstile-150x150.png">-->
+    <!-- <link rel="manifest" href="assets/images/logo/manifest.json">-->
+    <!-- <meta name="msapplication-TileImage" content="assets/images/logo/mstile-150x150.png">-->
     <meta name="theme-color" content="#ffffff">
     <!--  -->
     <!--    Stylesheets-->
@@ -39,8 +39,25 @@
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
+    <!---
+    <div class="preloader" id="preloader">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-white-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
     <main>
-        <!-- Navigation Bar   =============================================-->
+        <!-- Navigation Bar    =============================================-->
         <div class="znav-container background-3" id="znav-container">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
@@ -68,64 +85,106 @@
                 </nav>
             </div>
         </div>
-        <!-- Case Studies   =============================================-->
-        <section id="features-20">
+        <!-- Situation    =============================================-->
+        <section class="background-11 py-6" id="content-17">
             <div class="container">
-                <!-- Skype 1 -->
-                <div class="row align-items-center mb-7">
-                    <div class="col-lg-4">
-                        <h4 class="fw-700">Skype Call Controls</h4>
-                        <p class="lead">This was a mixed-method research project that guided the Skype design iteration.</p>
-                        <a class="btn btn-link pl-0" href="skype-1.html" target="_blank">Read More &xrarr;</a>
-                      </div>
-                    <div class="col-lg-4 col-sm-7 pr-md-4 pl-lg-4 mt-4 mt-lg-0"><img class="radius-primary box-shadow-wide" src="assets/images/skype-1.jpg" alt="" /></div>
-                    <div class="col-lg-3 col-sm-4 mt-3 mt-sm-0">
-                        <hr class="short left color-7 d-none d-sm-block mr-auto" />
-                        <p>evaluative, usability, generative, tree testing</p>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h3 class="mb-4">Skype Call Controls</h3>
+                        <p class="lead">Skype is a messaging and calling app that can be used to contact online and cellular users.</p>
+                        <p class="lead">The team was stuck at what to offer as the solution to making control actions during a group video call, as there were several design options.</p>
+                        <p class="lead">The PM had concerns on that some of the features (including existing features and new design) placed in menus being less findable.</p>
                     </div>
                 </div>
-                <!--/.row-->
-                <!-- Skype 2
-                <div class="row align-items-center mb-7">
-                    <div class="col-lg-4">
-                        <h4 class="fw-700">xxxx</h4>
-                        <p class="lead">xxxx.</p><a class="btn btn-link pl-0" href="#" target="_blank">Read More &xrarr;</a></div>
-                    <div class="col-lg-4 col-sm-7 pr-md-4 pl-lg-4 mt-4 mt-lg-0"><img class="radius-primary box-shadow-wide" src="assets/images/xxxx.jpg" alt="" /></div>
-                    <div class="col-lg-3 col-sm-4 mt-3 mt-sm-0">
-                        <hr class="short left color-7 d-none d-sm-block mr-auto" />
-                        <p>xxxx.</p>
-                    </div>
-                </div>-->
-                <!--/.row-->
-                <!-- Paint3D 1 -->
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <h4 class="fw-700">Paint3D Improvement</h4>
-                        <p class="lead">In this project I helped improved the 3D model moving and editing experience of Paint3D.</p><a class="btn btn-link pl-0" href="paint3d-1.html" target="_blank">Read More &xrarr;</a></div>
-                    <div class="col-lg-4 col-sm-7 pr-md-4 pl-lg-4 mt-4 mt-lg-0"><img class="radius-primary box-shadow-wide" src="assets/images/paint-1.jpg" alt="" /></div>
-                    <div class="col-lg-3 col-sm-4 mt-3 mt-sm-0">
-                        <hr class="short left color-7 d-none d-sm-block mr-auto" />
-                        <p>evaluative, usability</p>
-                    </div>
-                </div>
-                <!--/.row-->
-                <!-- Paint3D 2
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <h4 class="fw-700">xxxx</h4>
-                        <p class="lead">xxxx.</p><a class="btn btn-link pl-0" href="#" target="_blank">Read More &xrarr;</a></div>
-                    <div class="col-lg-4 col-sm-7 pr-md-4 pl-lg-4 mt-4 mt-lg-0"><img class="radius-primary box-shadow-wide" src="assets/images/xx.jpg" alt="" /></div>
-                    <div class="col-lg-3 col-sm-4 mt-3 mt-sm-0">
-                        <hr class="short left color-7 d-none d-sm-block mr-auto" />
-                        <p>xxxx.</p>
-                    </div>
-                </div>-->
                 <!--/.row-->
             </div>
             <!--/.container-->
         </section>
 
-        <!-- Footer   =============================================-->
+        <!-- Problem/Objective    =============================================-->
+        <section class="py-6" id="features-7">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7 col-xl-6 mb-5 mb-lg-0 mt-4 mt-lg-0 pl-lg-5 pl-xl-2">
+                        <p class="lead mt-4 pr-md-9 pr-lg-0">My primary goal was to get user feedback to facilitate the designer's decision making on which solution to choose.</p>
+                        <p class="lead mt-4 pr-md-9 pr-lg-0">For the concern that the PM had, I sensed that a meaningful question to ask was: does the content structure of the app match what users expect in terms of hierarchy? For example, should 'take a screenshot' to be found in a 'more option' menu, or on the surface of the app that can be clicked right away?</p>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <div class="flexslider flexslider-simple h-100">
+                              <img class="radius-secondary" src="assets/images/skype-2.jpg" alt="" />
+                                <!--<li class="h-100"><img class="radius-secondary h-100" src="assets/images/58.jpg" alt="" style="object-fit: cover:;" /></li>
+                                <li class="h-100"><img class="radius-secondary h-100" src="assets/images/61.jpg" alt="" style="object-fit: cover:;" /></li>-->
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        <!-- Action    =============================================-->
+        <section class="py-4" id="content-27">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-6 align-self-stretch pr-xl-8 pr-lg-7" style="min-height: 400px;">
+                        <div class="flexslider flexslider-simple h-100">
+                              <img class="radius-secondary" src="assets/images/skype-3.gif" alt="" />
+                                <!--<li class="h-100">
+                                    <div class="background-holder radius-secondary" style="background-image:url(assets/images/65.jpg);"></div>
+                                    <!--/.background-holder-->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-11 col-lg-6 mt-6 mt-lg-0">
+                        <div class="row">
+                            <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-7">1</span>
+                                <h5 class="color-2">Usability testing</h5>
+                                <p class="lead mb-5">As the priority was to validate design variants, it made sense to do a usability study. I conducted remote live usability testing with 6 participants on the new design solutions. Some solutions that had two options were counter-balanced.</p>
+                            </div>
+                            <div class="col-11 offset-1 offset-sm-0 font-1 pl-5 pr-0 no-circle"><span class="background-5">2</span>
+                                <h5 class="color-2">Tree testing</h5>
+                                <p class="lead mb-5">To understand users expectation on content structure, I explore the tree testing method. I learned that it is a good method for testing textual content findability. There were some challenges to make this method work because mobile app content has visual information in addition to textual information. I piloted different ways of task design and settled on one with descriptive tree branch titles. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        <!-- Success    =============================================-->
+        <section class="py-4 text-center" id="content-9">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-8 col-lg-10 col-xl-9">
+                        <img class="mb-4" src="assets/images/icon-success.svg" width="60" alt="" />
+                        <h4>Success</h4>
+                        <p class="lead">The team agreed on the next move to make and delivered revised design after one month.</p>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        <!-- Challenge/Leason Learned    =============================================-->
+        <section class="py-6 text-center" id="content-9">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-8 col-lg-10 col-xl-9">
+                        <img class="mb-4" src="assets/images/icon-pulse.svg" width="60" alt="" />
+                        <h4>Lesson Learned</h4>
+                        <p class="lead">A lot of my projects prior to this one had simple research goals. Most of them were to validate new design changes and therefore a standard usability testing was sufficient. This time, I had research questions from different partners. While the center topic was aligned, the questions could not be tackled by one single approach. I explored and succeed in planning the research consisted of two research methods.</p>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        <!-- Footer    =============================================-->
         <section class="py-6 background-3" id="footer-13">
             <div class="container">
                 <div class="row">
@@ -177,7 +236,6 @@
     <script src="assets/lib/typed.js/lib/typed.min.js"></script>
     <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
     <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
-
 </body>
 
 </html>
