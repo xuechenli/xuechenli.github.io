@@ -46,7 +46,7 @@
 }
 
 .slider > i {
-    color: #5bbd72;
+    color: #E7767D;
     position: absolute;
     font-size: 60px;
     margin: 20px;
@@ -116,8 +116,8 @@
 
 .slider > ul > li {
     padding: 0;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     list-style: none;
     float: left;
