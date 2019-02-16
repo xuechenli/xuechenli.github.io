@@ -33,7 +33,6 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-color: #000;*/
     overflow: hidden;
     -moz-transition: transform .4s;
     -o-transition: transform .4s;
@@ -55,8 +54,6 @@
     transition: .3s;
     width: 16px;
     padding: 12px 15px;
-    /*background: #fff;
-    background: rgba(255, 255, 255, .3);*/
     cursor: pointer;
     line-height: 0;
     box-sizing: content-box;
@@ -131,7 +128,7 @@
 }
 
 .slider > ul > .showli {
-    background-color: #7EC03D;
+    background-color: #E7767D;
     -moz-animation: boing .5s forwards;
     -o-animation: boing .5s forwards;
     -webkit-animation: boing .5s forwards;
@@ -139,7 +136,7 @@
 }
 
 .slider > ul > li:hover {
-    background-color: #7EC03D;
+    background-color: #E7767D;
 }
 
 .slider > .show {
