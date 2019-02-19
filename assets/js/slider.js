@@ -146,4 +146,26 @@ $(document).ready(function() {
     // titleBarTop: "off"
   });
 
+  $("#slider2").sliderResponsive({
+  // Using default everything
+    // slidePause: 5000,
+    // fadeSpeed: 800,
+    // autoPlay: "on",
+    // showArrows: "off",
+    // hideDots: "off",
+    // hoverZoom: "on",
+    // titleBarTop: "off"
+  });
+
+  $("#slider3").sliderResponsive({
+  // Using default everything
+    slidePause: 5558,
+    // fadeSpeed: 800,
+    // autoPlay: "on",
+    // showArrows: "off",
+    // hideDots: "off",
+    // hoverZoom: "on",
+    // titleBarTop: "off"
+  });
+
 });

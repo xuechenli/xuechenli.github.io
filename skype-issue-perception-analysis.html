@@ -59,7 +59,7 @@
             <div class="container">
                 <nav class="navbar py-2"><a class="color-9 navbar-brand" href="index.html">Xuechen Li</a>
                     <!--
-                    <div class="d-flex mx-auto mr-sm-0 fs-0 mr-3"></div><span class="hamburger hamburger--emphatic nav-burger"><span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                    <div class="d-flex mx-auto mr-sm-0 fs-0 mr-3"></div><span class="hamburger hamburger-emphatic nav-burger"><span class="hamburger-box"><span class="hamburger-inner"></span></span>
                     </span>
                   -->
                 </nav>
@@ -67,49 +67,59 @@
         </div>
 
         <!-- Situation    =====================================================-->
-        <section class="pb-5" id="content-17">
+        <section id="content-17">
             <div class="background-holder overlay overlay-0" style="background-image:url(assets/images/cover-2_large.jpg);"></div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
-                        <h3 class="color-9 mb-4">Skype Issue Perception Analysis</h3>
-                        <p class="color-9">The Skype team had several channels for user feedback and product performance such as Net Promoter Score (NPS) survey and telemetry data dashboards. However, a new channel was still needed to learn about users' perceptions of issues. The team wanted to know what were the prevalent issues across the generalized Skype population.</p>
+                        <h2 class="mb-4 color-9">Skype Issue Perception Analysis</h2>
+                        <h5 class="color-9 fw-400 text-left">The Skype team had several channels for user feedback and product performance such as Net Promoter Score (NPS) survey and telemetry data dashboards. However, a new channel was still needed to learn about users' perceptions of issues. The team wanted to know what were the prevalent issues across the generalized Skype population.</h5>
                     </div>
                 </div>
-                <!--/.row-->
             </div>
-            <!--/.container-->
         </section>
 
         <!-- Problem/Objective    =============================================-->
-        <section class="py-6 pt-7" id="content-12">
+        <section class="py-4 pt-7" id="content-12">
             <div class="container">
+                <!--
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                      <h5 class="fw-300 text-left">The Skype team had several channels for user feedback and product performance such as Net Promoter Score (NPS) survey and telemetry data dashboards. However, a new channel was still needed to learn about users' perceptions of issues. The team wanted to know what were the prevalent issues across the generalized Skype population.</h5>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <img class="py-6" src="assets/images/icon-pulse.svg" width="60" alt="" />
+                </div>
+                -->
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <h5 class="fw-300 text-left">Four in-app surveys were sent out to 60 thousand users. After the team finished collecting data, I took on the task of data analysis.</h5>
                     </div>
                 </div>
                 <div class="pt-4 row">
-                    <div class="col-sm-6 col-lg-3">
-                        <h5 class="mb-3">Survey 1: General Issue</h5>
+                    <div class="col-2"></div>
+                    <div class="col-sm-6 col-lg-4">
+                        <h5 class="color-2">Survey 1: General Issue</h5>
                         <p> asked if the user had any issues in the past 7 days</p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 mt-4 mt-sm-0">
-                        <h5 class="mb-3">Survey 2: Feature Areas</h5>
+                    <div class="col-sm-6 col-lg-4">
+                        <h5 class="color-2">Survey 2: Feature Areas</h5>
                         <p>asked if the user had any issues within Skype's feature areas (e.g., calling, messaging...)</p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 mt-4 mt-lg-0">
-                        <h5 class="mb-3">Survey 3: Technical Areas</h5>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-sm-6 col-lg-4 mt-2">
+                        <h5 class="color-2">Survey 3: Technical Areas</h5>
                         <p>asked if the user had any issues within some technical areas (e.g., app crashes, audio quality issues...)</p>
                     </div>
-                    <div class="col-sm-6 col-lg-3 mt-4 mt-lg-0">
-                        <h5 class="mb-3">Survey 4: App Attributes</h5>
+                    <div class="col-sm-6 col-lg-4 mt-2">
+                        <h5 class="color-2">Survey 4: App Attributes</h5>
                         <p>asked if the user was dissatisfied with some app attributes (e.g., ease of use, technical reliability...)</p>
                     </div>
                 </div>
-                <!--/.row-->
             </div>
-            <!--/.container-->
         </section>
 
         <!-- Action    ========================================================-->
@@ -120,87 +130,62 @@
                         <h5 class="fw-300 text-left">After the team finished collecting data, I took on the task of data analysis. To summarize the results of the 4 surveys, my first task was to clean the data.</h5>
                     </div>
                     <div class="col-lg-8 mt-3"><img class="img-fluid w-100" src="assets/images/data-cleaning.gif" />
-                        <!--<h4 class="mt-4">Action</h4>-->
-                        <p class="mt-4 text-left">For discovering issues, I tested the calling and messaging under various circumstances. I took screenshots for each one of the flows and formed a giant flow map in Sketch.</p>
+                        <p class="mt-1 text-left">The survey results were paired with respondents' recent telemetry data. I looked into the data of several activities to examine if a respondent was an active user of a certain function. Then I filtered out the unqualified entities.</p>
                     </div>
                 </div>
             </div>
-            <!--/.container-->
         </section>
 
-        <section class="py-4" id="content-27">
+        <section class="py-4 text-center" id="content-20">
             <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-10">
-                    <h5 class="fw-300 py-6 text-left">While the map was comprehensive, I was always aware that a map such big would be difficult to read. I found out a way to tell coherent stories while not losing details:</h5>
-                  </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-12 col-lg-6 align-self-stretch pr-xl-8 pr-lg-7" style="min-height: 400px;">
-                        <div class="flexslider flexslider-simple h-100">
-                            <ul class="slides h-100">
-                                <li class="h-100">
-                                    <div class="background-holder radius-secondary" style="background-image:url(assets/images/64.jpg);"></div>
-                                </li>
-                                <li class="h-100">
-                                    <div class="background-holder radius-secondary" style="background-image:url(assets/images/65.jpg);"></div>
-                                </li>
-                            </ul>
-                        </div>
-                      </div>
-
-                    <div class="col-11 col-lg-6 mt-6 mt-lg-0">
-                        <div class="row">
-                            <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-8">1</span>
-                                <h5 class="color-2">Simple Scenarios</h5>
-                                <p class="mb-4">The giant map was broken down into 4 PowerPoint decks each of which contained a key scenario</p>
-                            </div>
-                            <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-7">2</span>
-                                <h5 class="color-2">Issue Summary</h5>
-                                <p class="mb-4">Each PowerPoint deck began with an overview of the scenario. It listed the amount of the issues and their categories.</p>
-                            </div>
-                            <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-5">3</span>
-                                <h5 class="color-2">Overview Map</h5>
-                                <p class="mb-4">Each PowerPoint slide zoomed into one or a few screenshots. Each slide had a little window that showed the relative position in the overview map.</p>
-                            </div>
-                            <div class="col-11 offset-1 offset-sm-0 font-1 pl-5 pr-0 no-circle"><span class="background-3">4</span>
-                                <h5 class="color-2">Clear Flows</h5>
-                                <p class="mb-4">The deck was presented in one major flow. Other possibilities were kept as side flows that can be visited aside from the major flow.</p>
-                            </div>
-                        </div>
+                    <div class="col-lg-10 mt-4">
+                        <h5 class="fw-300 text-left">The next task was to analyze the cleaned data. Aside from the 4 surveys, Skype had regular NPS surveys. So a small portion of the users had taken both the issue survey and NPS survey. This lead to two analysis topics:</h5>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="mt-4 col-md-5 px-lg-4">
+                        <h4 class="fs-1 fs-lg-2">Issue Prevalence</h4>
+                        <p>The results of the 4 surveys provided how many people of the respondents had certain issues. The prevalence of each issue category could be found and compared from different aspects of survey 2, 3, and 4.</p>
+                    </div>
+                    <div class="mt-4 col-md-5 px-lg-4">
+                        <h4 class="fs-1 fs-lg-2">Issue-Detractor Relationship</h4>
+                        <p>Given a hypothesis that having issues would make one person be less happy about a product, I expected to find some relationship between users experiencing issues and they being NPS detractors (score below 6).</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 mt-4">
+                        <h5 class="fw-300 text-left">For the <span class="fw-600">issue prevalence</span>, it was an easy task to do descriptive statistic and to show it by bar charts.</h5>
+                    </div>
+                    <div class="col-lg-8 mt-3"><img class="img-fluid w-100" src="assets/images/issue-prevalence.jpg" /></div>
+                    <div class="col-lg-10 mt-4">
+                        <h5 class="fw-300 text-left">For the <span class="fw-600">issue-detractor relationship</span>, I tried Chi-squared tests to see if experiencing a particular issue was significantly related to being a detractor; I tried Bayes' law to see the probability of being a detractor when having a particular issue; I also tried Person correlation to see if any issue was strongly correlated to being a detractor. <br /><br />At last, I used the logistic regression model to calculate the significance and odds ratio of each issue with being a detractor. It turned out all issues were significantly related to being detractors. And the values of odds ratio in comparison provided a good aspect to see which issue was more likely to cause being a detractor.</h5>
+                    </div>
 
+                </div>
             </div>
-            <!--/.container-->
         </section>
 
         <!-- Results    =======================================================-->
-        <section class="py-4 text-center" id="content-9">
+        <section class="pt-6 mb-6 text-center" id="content-9">
             <div class="container">
-                <div class="pb-5 row justify-content-center align-items-center">
-                    <div class="col-md-7 col-lg-9 col-xl-8">
-                        <img class="mb-4" src="assets/images/icon-success.svg" width="60" alt="" />
-                        <h5 class="fw-300 text-left">In this project, I identified <span class="fw-600">56 issues</span> that were categorized into inconsistent action/flow, unpredictable menu, hidden cost, faulty error state, inconsistent UI, and general UI issues. I was able to adjust and improve my deliverables across the time as I had kept regular communications with the design team. <span class="fw-600">"This is exactly what we need!"</span>, said the design lead after listening to my walkthrough of the deck.</h5>
-                        <h5 class="pt-3 fw-300 text-left">At the final presentation, we did a great job persuading the PM director to set about tackling the issues. My decks had given the team great confidence to achieve that result. </h5>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-10">
+                        <img class="mb-6" src="assets/images/icon-success.svg" width="60" alt="" />
+                        <h5 class="fw-300 text-left">Combining the prevalence and odds ratio, I drew 3 scatter plot for survey 2, 3, and 4. The more prevalent and higher odds ratio one issue is, the higher priority it should be. </h5>
+                    </div>
+                    <div class="col-lg-10 mt-3"><img class="img-fluid w-100" src="assets/images/prevalence-oddsratio.jpg" /></div>
+                    <div class="col-lg-10 mt-3">
+                        <h5 class="pt-3 fw-300 text-left">My research results gave the team a straightforward insight into how vital each issue was. The data scientist was supportive of the analysis as I had been discussing with him about different methods; The program managers were intrigued and convinced by the results. In the presentation, I also reflected on how useful each survey was. As I proved the value of these surveys and suggested some moderation to the surveys, all of the team advocated the idea to run the issue prevalence surveys regularly, and even to promote this method to other products that the bigger organization owns.</h5>
                     </div>
                 </div>
-                <!--/.row-->
+
             </div>
-            <!--/.container-->
         </section>
 
         <!-- More    ==========================================================-->
         <section class="pt-4 pb-7 background-black" id="content-17">
             <div class="container">
-                <!--
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <p>Most people use Skype for two things: calling and messaging.</p>
-                        <p>While Skype has a good customer foundation and has kept evolving, the user experience of calling and messaging still suffered from a lot of inconsistent flows.The design initiated the conversation about tidying up the system. They identified that a comprehensive examination of the system was the key foundation.</p>
-                    </div>
-                </div>
-                -->
                 <div class="row mt-6">
                     <div class="col-md-6">
                         <div class="border radius-secondary p-4 shadow-lg background-black border-color-3">
@@ -220,9 +205,7 @@
                             </div>
                         </div>
                     </div>
-
             </div>
-            <!--/.container-->
         </section>
 
         <!-- Footer   =========================================================-->
@@ -232,9 +215,7 @@
                     <div class="col"><h6 class="color-6 d-inline-block mb-2 mx-3" href="#">- Thank You For Visiting -</h6>
                     </div>
                 </div>
-                <!--/.row-->
             </div>
-            <!--/.container-->
         </section>
 
     </main>

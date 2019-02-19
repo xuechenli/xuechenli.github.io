@@ -33,6 +33,7 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -59,7 +60,7 @@
             <div class="container">
                 <nav class="navbar py-2"><a class="color-9 navbar-brand" href="index.html">Xuechen Li</a>
                     <!--
-                    <div class="d-flex mx-auto mr-sm-0 fs-0 mr-3"></div><span class="hamburger hamburger--emphatic nav-burger"><span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                    <div class="d-flex mx-auto mr-sm-0 fs-0 mr-3"></div><span class="hamburger hamburger-emphatic nav-burger"><span class="hamburger-box"><span class="hamburger-inner"></span></span>
                     </span>
                   -->
                 </nav>
@@ -67,14 +68,13 @@
         </div>
 
         <!-- Situation    =====================================================-->
-        <section class="pb-5" id="content-17">
+        <section id="content-17">
             <div class="background-holder overlay overlay-0" style="background-image:url(assets/images/cover-1_large.jpg);"></div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <h3 class="color-9 mb-4">Skype Core Problems Mapping</h3>
-                        <p class="color-9">Most people use Skype for two things: calling and messaging.</p>
-                        <p class="color-9">While Skype has a good customer foundation and has kept evolving, the user experience of calling and messaging still suffered from a lot of inconsistent flows.The design initiated the conversation about tidying up the system. They identified that a comprehensive examination of the system was the key foundation.</p>
+                        <h5 class="color-9 fw-400 text-left">Most people use Skype for two things: calling and messaging.<br />While Skype has a good customer foundation and has kept evolving, the user experience of calling and messaging still suffered from a lot of inconsistent flows.The design initiated the conversation about tidying up the system. They identified that a comprehensive examination of the system was the key foundation.</h5>
                     </div>
                 </div>
                 <!--/.row-->
@@ -83,14 +83,15 @@
         </section>
 
         <!-- Problem/Objective    =============================================-->
-        <section class="py-6 pt-7" id="content-12">
+        <section class="py-4 pt-7" id="content-12">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <h5 class="fw-300 text-left">As both the Skype system and the project itself were somewhat ambiguous, my goal was to <span class="fw-600">disambiguate</span> them:</h5>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-4">
+                <div class="row justify-content-left mt-4">
+                    <div class="col-1"></div>
                     <div class="col-lg-3">
                         <img class="py-1" src="assets/images/icon-magnifier.svg" width="40" alt="" />
                         <p class="color-6">Discover and mark down any issues that were lying in the calling and messaging flows.</p>
@@ -124,9 +125,11 @@
         <section class="py-4 text-center" id="content-2">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-8"><img class="img-fluid w-100" src="assets/images/skype-1.jpg" />
-                        <!--<h4 class="mt-4">Action</h4>-->
-                        <p class="mt-4 text-left">For discovering issues, I tested the calling and messaging under various circumstances. I took screenshots for each one of the flows and formed a giant flow map in Sketch.</p>
+                    <div class="col-10">
+                      <h5 class="fw-300 text-left">While the map was comprehensive, I was always aware that a map such big would be difficult to read. I found out a way to tell coherent stories while not losing details:</h5>
+                    </div>
+                    <div class="mt-4 col-lg-8"><img class="img-fluid w-100" src="assets/images/skype-1.jpg" />
+                        <p class="mt-1 text-left">For discovering issues, I tested the calling and messaging under various circumstances. I took screenshots for each one of the flows and formed a giant flow map in Sketch.</p>
                     </div>
                 </div>
             </div>
@@ -136,44 +139,45 @@
         <section class="py-4" id="content-27">
             <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-10">
-                    <h5 class="fw-300 py-6 text-left">While the map was comprehensive, I was always aware that a map such big would be difficult to read. I found out a way to tell coherent stories while not losing details:</h5>
-                  </div>
+                    <div class="col-10">
+                      <h5 class="mb-5 fw-300 text-left">While the map was comprehensive, I was always aware that a map such big would be difficult to read. I found out a way to tell coherent stories while not losing details:</h5>
+                    </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-12 col-lg-6 align-self-stretch pr-xl-8 pr-lg-7" style="min-height: 450px;">
-                        <div class="slider">
+                    <div class="col-12 col-lg-6 align-self-stretch pr-xl-2 pr-lg-1" style="min-height: 400px;">
+                        <div class="slider" id="slider2">
                           <!-- Slides -->
-                          <div style="background-image:url(assets/images/aboutme-1.jpg);">
+                          <div style="background-image:url(assets/images/scenarios.jpg);">
                           </div>
-                          <div style="background-image:url(assets/images/aboutme-2.jpg);">
+                          <div style="background-image:url(assets/images/summary.jpg);">
+                          </div>
+                          <div style="background-image:url(assets/images/overview.jpg);">
+                          </div>
+                          <div style="background-image:url(assets/images/other-flow.jpg);">
                           </div>
                           <!-- The Arrows -->
                           <i class="left" class="arrows" style="z-index:2; position:absolute;"><img src="assets/images/icon-left.svg" width="40" alt="last one" /></i>
                           <i class="right" class="arrows" style="z-index:2; position:absolute;"><img src="assets/images/icon-right.svg" width="40" alt="next one" /></i>
                         </div>
-                        <!--<div class="h-100">
-                          <div class="background-holder radius-secondary" style="background-image:url(assets/images/mapping.gif);"></div>
-                        </div>-->
                       </div>
 
-                    <div class="col-10 col-lg-5 mt-5 mt-lg-0">
+                    <div class="col-11 col-lg-5 mt-5 mt-lg-0">
                         <div class="row">
-                            <div class="col-10 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-8">1</span>
+                            <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-8">1</span>
                                 <h5 class="color-2">Simple Scenarios</h5>
-                                <p class="mb-4">The giant map was broken down into 4 PowerPoint decks each of which contained a key scenario</p>
+                                <p class="mb-4 font-2">The giant map was broken down into 4 PowerPoint decks each of which contained a key scenario</p>
                             </div>
                             <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-7">2</span>
                                 <h5 class="color-2">Issue Summary</h5>
-                                <p class="mb-4">Each PowerPoint deck began with an overview of the scenario. It listed the amount of the issues and their categories.</p>
+                                <p class="mb-4 font-2">Each PowerPoint deck began with an overview of the scenario. It listed the amount of the issues and their categories.</p>
                             </div>
                             <div class="col-11 offset-1 offset-sm-0 font-1 border-left border-color-9 border-2x pl-5 pr-0 no-circle"><span class="background-5">3</span>
                                 <h5 class="color-2">Overview Map</h5>
-                                <p class="mb-4">Each PowerPoint slide zoomed into one or a few screenshots. Each slide had a little window that showed the relative position in the overview map.</p>
+                                <p class="mb-4 font-2">Each PowerPoint slide zoomed into one or a few screenshots. Each slide had a little window that showed the relative position in the overview map.</p>
                             </div>
                             <div class="col-11 offset-1 offset-sm-0 font-1 pl-5 pr-0 no-circle"><span class="background-3">4</span>
                                 <h5 class="color-2">Clear Flows</h5>
-                                <p class="mb-4">The deck was presented in one major flow. Other possibilities were kept as side flows that can be visited aside from the major flow.</p>
+                                <p class="mb-4 font-2">The deck was presented in one major flow. Other possibilities were kept as side flows that can be visited aside from the major flow. (Their screenshots were hidden in the overview for simplicity.)</p>
                             </div>
                         </div>
                     </div>
@@ -184,9 +188,9 @@
         </section>
 
         <!-- Results    =======================================================-->
-        <section class="py-4 text-center" id="content-9">
+        <section class="pt-6 mb-6 text-center" id="content-9">
             <div class="container">
-                <div class="pb-5 row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-md-7 col-lg-9 col-xl-8">
                         <img class="mb-6" src="assets/images/icon-success.svg" width="60" alt="" />
                         <h5 class="fw-300 text-left">In this project, I identified <span class="fw-600">56 issues</span> that were categorized into inconsistent action/flow, unpredictable menu, hidden cost, faulty error state, inconsistent UI, and general UI issues. I was able to adjust and improve my deliverables across the time as I had kept regular communications with the design team. <span class="fw-600">"This is exactly what we need!"</span>, said the design lead after listening to my walkthrough of the deck.</h5>
@@ -201,14 +205,6 @@
         <!-- More    ==========================================================-->
         <section class="pt-4 pb-7 background-black" id="content-17">
             <div class="container">
-                <!--
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <p>Most people use Skype for two things: calling and messaging.</p>
-                        <p>While Skype has a good customer foundation and has kept evolving, the user experience of calling and messaging still suffered from a lot of inconsistent flows.The design initiated the conversation about tidying up the system. They identified that a comprehensive examination of the system was the key foundation.</p>
-                    </div>
-                </div>
-                -->
                 <div class="row mt-6">
                     <div class="col-md-6">
                         <div class="border radius-secondary p-4 shadow-lg background-black border-color-3">
